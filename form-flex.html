@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <link rel="stylesheet" href="flex.css"
+  </head>
+  <body>
+    <h1><a href="form-grid.html">Form</a></h1>
+    <form>
+      <div class="p_info">
+        <div class="col-1">
+          <label for="email">Email:</label>
+        </div>
+        <div class="col-2">
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="col-1">
+          <label for="phone">Phone Number:</label>
+        </div>
+        <div class="col-2">
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="###-###-####"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required
+          />
+        </div>
+        <div class="col-1">
+          <label for="fname">First Name:</label>
+        </div>
+        <div class="col-2">
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="John"
+            required
+          />
+        </div>
+        <div class="col-1">
+          <label for="lname">Last Name:</label>
+        </div>
+        <div class="col-2">
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Doe"
+            required
+          />
+        </div>
+      </div>
+      </form>
+      <div class="topping">
+        <h1>Do You Like Pineapple On Pizza?</h1>
+      <form>
+        <p>
+          <label for="option1">I like Pineapple</label>
+          <input
+            type="checkbox"
+            id="option1"
+            name="topp_pine"
+            value="pineapple"
+          />
+          <br />
+          <label for="option2">I Have Bad Taste</label>
+          <input type="checkbox" id="option2" name="topp_sad" value="sad" />
+        </p>
+      </div>
+      <label for="submit"></label>
+      <input type="submit" id="submit" name="submit" />
+    </form>
+  </body>
+</html>

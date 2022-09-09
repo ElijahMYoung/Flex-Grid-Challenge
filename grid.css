@@ -1,0 +1,46 @@
+html {
+  background: rgb(209, 196, 209);
+  background: radial-gradient(
+      circle,
+      rgba(209, 196, 209, 1) 0%,
+      rgba(188, 148, 233, 1) 100%
+    )
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 66% 33%;
+  color: rgb(37, 22, 43);
+}
+
+form p {
+  grid-column: 1 / 2;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 1vh;
+  background-color: aliceblue;
+  border: 1px solid;
+}
+
+@media (min-width: 400px) {
+  form {
+    grid-template-columns: 200px 1fr;
+  }
+}
+
+input[type="submit"] {
+  background-color: rgb(118, 85, 150);
+  color: bisque;
+  border: none;
+  border-radius: 5px;
+  grid-column: 3;
+}

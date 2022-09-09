@@ -1,0 +1,43 @@
+html {
+  background: rgb(209, 196, 209);
+  background: radial-gradient(
+      circle,
+      rgba(209, 196, 209, 1) 0%,
+      rgba(188, 148, 233, 1) 100%
+    )
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+form,
+input[type="submit"] {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  color: rgb(37, 22, 43);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 75%;
+}
+
+input[type="submit"] {
+  background-color: rgb(118, 85, 150);
+  color: bisque;
+  border: none;
+  border-radius: 5px;
+}
